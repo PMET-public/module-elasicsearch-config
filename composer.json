@@ -1,0 +1,14 @@
+{
+    "name": "magentoese/module-elasticsearch-config",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "smile/elasticsuite": "*"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "MagentoEse\\ElasticsearchConfig\\": ""
+        }
+    }
+}
