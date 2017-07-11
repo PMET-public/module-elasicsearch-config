@@ -5,5 +5,10 @@
         <servers>elasticsearch.internal:9200</servers>
       </es_client>
     </smile_elasticsuite_core_base_settings>
+    <catalog>
+      <search>
+        <engine>elasticsearch</engine>
+      </search>
+    </catalog>
   </default>
 </config>
