@@ -7,7 +7,7 @@
     </smile_elasticsuite_core_base_settings>
     <catalog>
       <search>
-        <engine>elasticsearch</engine>
+        <engine>elasticsuite</engine>
       </search>
     </catalog>
   </default>
