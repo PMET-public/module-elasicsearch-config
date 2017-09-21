@@ -1,14 +1,12 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
   <default>
-    <smile_elasticsuite_core_base_settings>
-      <es_client>
-        <servers>elasticsearch.internal:9200</servers>
-      </es_client>
-    </smile_elasticsuite_core_base_settings>
-    <!-- <catalog>
+    <catalog>
       <search>
-        <engine>elasticsuite</engine>
+        <engine>elasticsearch</engine>
+        <elasticsearch_server_hostname>elasticsearch.internal</elasticsearch_server_hostname>
+        <elasticsearch_server_port>9200</elasticsearch_server_port>
+        <elasticsearch_index_prefix>magento2</elasticsearch_index_prefix>
       </search>
-    </catalog> -->
+    </catalog>
   </default>
 </config>

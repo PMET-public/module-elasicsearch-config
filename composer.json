@@ -2,8 +2,7 @@
     "name": "magentoese/module-elasticsearch-config",
     "type": "magento2-module",
     "require": {
-        "magento/framework": "*",
-        "smile/elasticsuite": "*"
+        "magento/framework": "*"
     },
     "autoload": {
         "files": [ "registration.php" ],
